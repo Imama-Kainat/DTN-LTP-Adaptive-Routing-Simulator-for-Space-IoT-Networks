@@ -1,0 +1,608 @@
+{
+  "configuration": {
+    "num_nodes": 8,
+    "network_radius": 5000.0,
+    "max_buffer_size": 50,
+    "bundle_timeout": 300.0,
+    "min_contact_duration": 10.0,
+    "ltp_segment_size": 1024,
+    "ltp_max_retransmissions": 5,
+    "ltp_rto_initial": 5.0,
+    "channel_capacity": 100.0,
+    "base_error_rate": 0.01,
+    "qos_priority_levels": 4,
+    "max_hop_count": 10,
+    "simulation_time": 500,
+    "mobility_update_interval": 5.0,
+    "random_seed": 45
+  },
+  "execution_time": 500.0,
+  "metrics_timeline": [
+    {
+      "timestamp": 0.0,
+      "total_delivered": 0,
+      "total_transmitted": 0,
+      "total_dropped": 0,
+      "avg_latency": 0.0,
+      "delivery_ratio": 0.0,
+      "avg_buffer_utilization": 3.0
+    },
+    {
+      "timestamp": 100.0,
+      "total_delivered": 33,
+      "total_transmitted": 228,
+      "total_dropped": 2,
+      "avg_latency": 48.333333333333336,
+      "delivery_ratio": 0.14473684210526316,
+      "avg_buffer_utilization": 7.375
+    },
+    {
+      "timestamp": 200.0,
+      "total_delivered": 94,
+      "total_transmitted": 647,
+      "total_dropped": 9,
+      "avg_latency": 87.81914893617021,
+      "delivery_ratio": 0.14528593508500773,
+      "avg_buffer_utilization": 11.5
+    },
+    {
+      "timestamp": 300.0,
+      "total_delivered": 153,
+      "total_transmitted": 1112,
+      "total_dropped": 17,
+      "avg_latency": 113.62745098039215,
+      "delivery_ratio": 0.13758992805755396,
+      "avg_buffer_utilization": 15.25
+    },
+    {
+      "timestamp": 400.0,
+      "total_delivered": 196,
+      "total_transmitted": 1383,
+      "total_dropped": 22,
+      "avg_latency": 123.08673469387755,
+      "delivery_ratio": 0.14172089660159073,
+      "avg_buffer_utilization": 20.875
+    },
+    {
+      "timestamp": 500.0,
+      "total_delivered": 196,
+      "total_transmitted": 1383,
+      "total_dropped": 22,
+      "avg_latency": 123.08673469387755,
+      "delivery_ratio": 0.14172089660159073,
+      "avg_buffer_utilization": 26.875
+    }
+  ],
+  "node_statistics": [
+    {
+      "node_id": 0,
+      "timestamp": 500.0,
+      "x": 5000.0,
+      "y": 0.0,
+      "buffer_size": 20,
+      "bundles_transmitted": 225,
+      "bundles_received": 250,
+      "bundles_dropped": 2,
+      "avg_latency": 124.30232558139535
+    },
+    {
+      "node_id": 1,
+      "timestamp": 500.0,
+      "x": 3535.533905932738,
+      "y": 3535.533905932738,
+      "buffer_size": 22,
+      "bundles_transmitted": 181,
+      "bundles_received": 210,
+      "bundles_dropped": 5,
+      "avg_latency": 133.4
+    },
+    {
+      "node_id": 2,
+      "timestamp": 500.0,
+      "x": 3.061616997868383e-13,
+      "y": 5000.0,
+      "buffer_size": 35,
+      "bundles_transmitted": 186,
+      "bundles_received": 228,
+      "bundles_dropped": 5,
+      "avg_latency": 146.30434782608697
+    },
+    {
+      "node_id": 3,
+      "timestamp": 500.0,
+      "x": -3535.5339059327375,
+      "y": 3535.533905932738,
+      "buffer_size": 23,
+      "bundles_transmitted": 176,
+      "bundles_received": 205,
+      "bundles_dropped": 4,
+      "avg_latency": 112.33333333333333
+    },
+    {
+      "node_id": 4,
+      "timestamp": 500.0,
+      "x": -5000.0,
+      "y": 6.123233995736766e-13,
+      "buffer_size": 35,
+      "bundles_transmitted": 93,
+      "bundles_received": 132,
+      "bundles_dropped": 0,
+      "avg_latency": 118.6842105263158
+    },
+    {
+      "node_id": 5,
+      "timestamp": 500.0,
+      "x": -3535.5339059327384,
+      "y": -3535.5339059327375,
+      "buffer_size": 27,
+      "bundles_transmitted": 203,
+      "bundles_received": 236,
+      "bundles_dropped": 5,
+      "avg_latency": 100.9090909090909
+    },
+    {
+      "node_id": 6,
+      "timestamp": 500.0,
+      "x": -9.18485099360515e-13,
+      "y": -5000.0,
+      "buffer_size": 26,
+      "bundles_transmitted": 222,
+      "bundles_received": 250,
+      "bundles_dropped": 1,
+      "avg_latency": 135.0
+    },
+    {
+      "node_id": 7,
+      "timestamp": 500.0,
+      "x": 3535.5339059327366,
+      "y": -3535.5339059327384,
+      "buffer_size": 27,
+      "bundles_transmitted": 97,
+      "bundles_received": 127,
+      "bundles_dropped": 0,
+      "avg_latency": 112.8125
+    }
+  ],
+  "contact_schedule": [
+    {
+      "node_a": 0,
+      "node_b": 1,
+      "start_time": 90.1812171836031,
+      "end_time": 115.34082275326878,
+      "capacity_mbps": 51.07965807331115,
+      "reliability": 0.9828936020636864
+    },
+    {
+      "node_a": 0,
+      "node_b": 1,
+      "start_time": 40.19336215665638,
+      "end_time": 90.57638485158174,
+      "capacity_mbps": 97.81679895186357,
+      "reliability": 0.9736145007715615
+    },
+    {
+      "node_a": 0,
+      "node_b": 1,
+      "start_time": 227.25642444576695,
+      "end_time": 282.21282045365405,
+      "capacity_mbps": 53.33164935373185,
+      "reliability": 0.9882103654751422
+    },
+    {
+      "node_a": 0,
+      "node_b": 1,
+      "start_time": 313.6298880572518,
+      "end_time": 331.33604599899934,
+      "capacity_mbps": 99.62910333576671,
+      "reliability": 0.9759817215954323
+    },
+    {
+      "node_a": 0,
+      "node_b": 1,
+      "start_time": 149.93565660888675,
+      "end_time": 190.58154096185814,
+      "capacity_mbps": 57.140273861755084,
+      "reliability": 0.9935701602095816
+    },
+    {
+      "node_a": 0,
+      "node_b": 2,
+      "start_time": 88.1520466863251,
+      "end_time": 136.90669641679617,
+      "capacity_mbps": 98.13361515105431,
+      "reliability": 0.9926561348119013
+    },
+    {
+      "node_a": 0,
+      "node_b": 2,
+      "start_time": 31.439896355804915,
+      "end_time": 78.99886558843323,
+      "capacity_mbps": 65.84946579630866,
+      "reliability": 0.98533058812857
+    },
+    {
+      "node_a": 0,
+      "node_b": 2,
+      "start_time": 306.7162258713875,
+      "end_time": 354.00620165262,
+      "capacity_mbps": 83.03579931589633,
+      "reliability": 0.9733086993485568
+    },
+    {
+      "node_a": 0,
+      "node_b": 2,
+      "start_time": 256.2153404006909,
+      "end_time": 306.727784741202,
+      "capacity_mbps": 82.1625352853099,
+      "reliability": 0.9801710428179727
+    },
+    {
+      "node_a": 0,
+      "node_b": 3,
+      "start_time": 319.11752949196205,
+      "end_time": 346.6847051768142,
+      "capacity_mbps": 81.31731964223268,
+      "reliability": 0.9945775239077078
+    },
+    {
+      "node_a": 0,
+      "node_b": 3,
+      "start_time": 174.98903907117247,
+      "end_time": 216.15770794628037,
+      "capacity_mbps": 64.68921497833607,
+      "reliability": 0.9846375746680124
+    },
+    {
+      "node_a": 0,
+      "node_b": 3,
+      "start_time": 292.4048206434365,
+      "end_time": 309.576489718463,
+      "capacity_mbps": 72.7733167090922,
+      "reliability": 0.9928406979590388
+    },
+    {
+      "node_a": 0,
+      "node_b": 3,
+      "start_time": 134.54624393320876,
+      "end_time": 188.6724425659109,
+      "capacity_mbps": 80.62257651341946,
+      "reliability": 0.9942749410449987
+    },
+    {
+      "node_a": 0,
+      "node_b": 6,
+      "start_time": 111.3856912053814,
+      "end_time": 129.79316111236335,
+      "capacity_mbps": 50.501900770573236,
+      "reliability": 0.98801217197445
+    },
+    {
+      "node_a": 0,
+      "node_b": 6,
+      "start_time": 140.43459132823898,
+      "end_time": 193.801125256881,
+      "capacity_mbps": 50.147434556513005,
+      "reliability": 0.9721285350293082
+    },
+    {
+      "node_a": 0,
+      "node_b": 6,
+      "start_time": 249.54776336841417,
+      "end_time": 290.5121339165272,
+      "capacity_mbps": 72.74632395771383,
+      "reliability": 0.989987841820465
+    },
+    {
+      "node_a": 0,
+      "node_b": 6,
+      "start_time": 94.74805101795185,
+      "end_time": 116.86413848628148,
+      "capacity_mbps": 81.37803283281914,
+      "reliability": 0.9711673983813702
+    },
+    {
+      "node_a": 0,
+      "node_b": 7,
+      "start_time": 52.038472497908224,
+      "end_time": 63.17352955892713,
+      "capacity_mbps": 98.50201765547776,
+      "reliability": 0.9738923113644872
+    },
+    {
+      "node_a": 0,
+      "node_b": 7,
+      "start_time": 33.27960007785681,
+      "end_time": 73.81334231733462,
+      "capacity_mbps": 89.2537959154858,
+      "reliability": 0.9726434900068455
+    },
+    {
+      "node_a": 1,
+      "node_b": 2,
+      "start_time": 342.30776941236456,
+      "end_time": 392.04734748165805,
+      "capacity_mbps": 58.18452428382134,
+      "reliability": 0.9783753932834132
+    },
+    {
+      "node_a": 1,
+      "node_b": 2,
+      "start_time": 231.20630915565428,
+      "end_time": 276.61222604272325,
+      "capacity_mbps": 92.80458757617525,
+      "reliability": 0.9724904917201229
+    },
+    {
+      "node_a": 1,
+      "node_b": 2,
+      "start_time": 227.3851714409437,
+      "end_time": 251.255156776328,
+      "capacity_mbps": 88.32779951476864,
+      "reliability": 0.9728848017794685
+    },
+    {
+      "node_a": 1,
+      "node_b": 3,
+      "start_time": 25.283495801648602,
+      "end_time": 64.78410083387575,
+      "capacity_mbps": 91.77693611820158,
+      "reliability": 0.9777000119881956
+    },
+    {
+      "node_a": 1,
+      "node_b": 3,
+      "start_time": 81.91865803656275,
+      "end_time": 110.13826962092355,
+      "capacity_mbps": 94.31074581098542,
+      "reliability": 0.9896052026352047
+    },
+    {
+      "node_a": 1,
+      "node_b": 5,
+      "start_time": 238.4070243272795,
+      "end_time": 277.93029789713205,
+      "capacity_mbps": 93.37801666888643,
+      "reliability": 0.9789902512996942
+    },
+    {
+      "node_a": 1,
+      "node_b": 5,
+      "start_time": 320.6849423309767,
+      "end_time": 363.2655164878052,
+      "capacity_mbps": 79.39206610106895,
+      "reliability": 0.99358165025097
+    },
+    {
+      "node_a": 1,
+      "node_b": 7,
+      "start_time": 21.651569509733378,
+      "end_time": 35.92283784071881,
+      "capacity_mbps": 89.36176276591424,
+      "reliability": 0.9807458133897684
+    },
+    {
+      "node_a": 1,
+      "node_b": 7,
+      "start_time": 98.74539624680378,
+      "end_time": 124.47936878945251,
+      "capacity_mbps": 72.5049554568162,
+      "reliability": 0.9818424728813577
+    },
+    {
+      "node_a": 1,
+      "node_b": 7,
+      "start_time": 242.52836095807382,
+      "end_time": 282.21295040857257,
+      "capacity_mbps": 85.85432461253973,
+      "reliability": 0.9848923303941045
+    },
+    {
+      "node_a": 2,
+      "node_b": 5,
+      "start_time": 134.84186408020864,
+      "end_time": 186.44358057680125,
+      "capacity_mbps": 53.118107498916345,
+      "reliability": 0.9859334279683172
+    },
+    {
+      "node_a": 2,
+      "node_b": 5,
+      "start_time": 243.54644449857406,
+      "end_time": 257.63280179313995,
+      "capacity_mbps": 77.68918020568285,
+      "reliability": 0.9852822650358405
+    },
+    {
+      "node_a": 2,
+      "node_b": 6,
+      "start_time": 114.82160732309033,
+      "end_time": 131.5103376189333,
+      "capacity_mbps": 53.34424771049191,
+      "reliability": 0.9796312551245098
+    },
+    {
+      "node_a": 2,
+      "node_b": 6,
+      "start_time": 260.4438479489882,
+      "end_time": 300.8403014563881,
+      "capacity_mbps": 89.91260532266877,
+      "reliability": 0.9738654324300584
+    },
+    {
+      "node_a": 2,
+      "node_b": 6,
+      "start_time": 187.8542261833702,
+      "end_time": 204.62029833229533,
+      "capacity_mbps": 87.63511210609148,
+      "reliability": 0.9889320860458859
+    },
+    {
+      "node_a": 2,
+      "node_b": 6,
+      "start_time": 28.819226869190196,
+      "end_time": 39.375388486923484,
+      "capacity_mbps": 56.5833801978495,
+      "reliability": 0.9872287400294526
+    },
+    {
+      "node_a": 2,
+      "node_b": 6,
+      "start_time": 225.18539654567365,
+      "end_time": 275.5213988319743,
+      "capacity_mbps": 77.70339907221889,
+      "reliability": 0.970734939026493
+    },
+    {
+      "node_a": 3,
+      "node_b": 5,
+      "start_time": 133.55916611028684,
+      "end_time": 144.5354973475502,
+      "capacity_mbps": 56.09963837884801,
+      "reliability": 0.981535943290915
+    },
+    {
+      "node_a": 3,
+      "node_b": 5,
+      "start_time": 295.1385935480494,
+      "end_time": 307.5797761368186,
+      "capacity_mbps": 70.5899296526028,
+      "reliability": 0.9865269450600991
+    },
+    {
+      "node_a": 3,
+      "node_b": 5,
+      "start_time": 154.4628740758932,
+      "end_time": 195.82902369991479,
+      "capacity_mbps": 75.13664374681369,
+      "reliability": 0.9882118180631997
+    },
+    {
+      "node_a": 3,
+      "node_b": 5,
+      "start_time": 304.27299591984786,
+      "end_time": 354.7616068632971,
+      "capacity_mbps": 94.87037374125174,
+      "reliability": 0.9918539557449868
+    },
+    {
+      "node_a": 3,
+      "node_b": 6,
+      "start_time": 257.5765966162576,
+      "end_time": 306.81832403063277,
+      "capacity_mbps": 58.42089342308236,
+      "reliability": 0.9798362726240694
+    },
+    {
+      "node_a": 3,
+      "node_b": 6,
+      "start_time": 185.51642051429417,
+      "end_time": 238.823364977187,
+      "capacity_mbps": 87.78179417020739,
+      "reliability": 0.9710866168686169
+    },
+    {
+      "node_a": 3,
+      "node_b": 6,
+      "start_time": 28.29542842151902,
+      "end_time": 67.19441131405448,
+      "capacity_mbps": 94.35738154429755,
+      "reliability": 0.9863036832224911
+    },
+    {
+      "node_a": 4,
+      "node_b": 5,
+      "start_time": 144.27678690698502,
+      "end_time": 192.105015899026,
+      "capacity_mbps": 92.5765598280085,
+      "reliability": 0.9826923105429821
+    },
+    {
+      "node_a": 4,
+      "node_b": 5,
+      "start_time": 53.73338753864042,
+      "end_time": 100.74746492365207,
+      "capacity_mbps": 59.509614256965904,
+      "reliability": 0.9905657653750761
+    },
+    {
+      "node_a": 4,
+      "node_b": 5,
+      "start_time": 89.41521620966168,
+      "end_time": 131.74898996527696,
+      "capacity_mbps": 67.70366655221997,
+      "reliability": 0.9924426262382274
+    },
+    {
+      "node_a": 4,
+      "node_b": 6,
+      "start_time": 183.4806516671166,
+      "end_time": 215.5968013858635,
+      "capacity_mbps": 56.70019774363488,
+      "reliability": 0.9939131695884842
+    },
+    {
+      "node_a": 4,
+      "node_b": 6,
+      "start_time": 252.5976259470043,
+      "end_time": 291.27646222880355,
+      "capacity_mbps": 59.42287738477114,
+      "reliability": 0.9910355249149395
+    },
+    {
+      "node_a": 4,
+      "node_b": 6,
+      "start_time": 105.32766740625809,
+      "end_time": 129.58718531669436,
+      "capacity_mbps": 73.75623166903323,
+      "reliability": 0.9703364710811101
+    },
+    {
+      "node_a": 4,
+      "node_b": 6,
+      "start_time": 180.60325523785642,
+      "end_time": 217.19865244017274,
+      "capacity_mbps": 89.08689826989269,
+      "reliability": 0.9906609358382295
+    },
+    {
+      "node_a": 4,
+      "node_b": 6,
+      "start_time": 203.19635061919809,
+      "end_time": 227.59167230950908,
+      "capacity_mbps": 54.90275441640915,
+      "reliability": 0.9739742996614307
+    },
+    {
+      "node_a": 5,
+      "node_b": 7,
+      "start_time": 99.58445349488112,
+      "end_time": 114.66519744050017,
+      "capacity_mbps": 91.61692258975779,
+      "reliability": 0.9737642135439847
+    },
+    {
+      "node_a": 5,
+      "node_b": 7,
+      "start_time": 129.063591460438,
+      "end_time": 177.18719058093507,
+      "capacity_mbps": 96.92305275210416,
+      "reliability": 0.9838424993124731
+    },
+    {
+      "node_a": 5,
+      "node_b": 7,
+      "start_time": 155.00906656218575,
+      "end_time": 195.87417571958656,
+      "capacity_mbps": 92.25880792874783,
+      "reliability": 0.9774188242241878
+    },
+    {
+      "node_a": 5,
+      "node_b": 7,
+      "start_time": 345.7515804735605,
+      "end_time": 362.93401746677984,
+      "capacity_mbps": 54.742000728498176,
+      "reliability": 0.9919884819784788
+    }
+  ]
+}

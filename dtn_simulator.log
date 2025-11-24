@@ -1,0 +1,437 @@
+2025-11-23 15:21:43,241 [INFO] ================================================================================
+2025-11-23 15:21:43,294 [INFO] DTN-LTP Simulator initialized
+2025-11-23 15:21:43,339 [INFO] Config: {
+  "num_nodes": 8,
+  "network_radius": 5000.0,
+  "max_buffer_size": 50,
+  "bundle_timeout": 300.0,
+  "min_contact_duration": 10.0,
+  "ltp_segment_size": 1024,
+  "ltp_max_retransmissions": 5,
+  "ltp_rto_initial": 5.0,
+  "channel_capacity": 100.0,
+  "base_error_rate": 0.01,
+  "qos_priority_levels": 4,
+  "max_hop_count": 10,
+  "simulation_time": 500,
+  "mobility_update_interval": 5.0,
+  "random_seed": 42
+}
+2025-11-23 15:21:43,458 [INFO] Creating 8 DTN nodes...
+2025-11-23 15:21:43,463 [INFO] Generating contact schedule...
+2025-11-23 15:21:43,473 [INFO] Starting simulation...
+2025-11-23 15:21:43,475 [INFO] Generating 20 bundles...
+2025-11-23 15:21:43,486 [INFO] Generating 27 bundles...
+2025-11-23 15:21:43,489 [INFO] Contact: Node 0 <-> 7 at t=15.00s
+2025-11-23 15:21:43,495 [INFO] Contact: Node 2 <-> 4 at t=25.00s
+2025-11-23 15:21:43,509 [INFO] Contact: Node 3 <-> 4 at t=30.00s
+2025-11-23 15:21:43,511 [INFO] Contact: Node 3 <-> 7 at t=30.00s
+2025-11-23 15:21:43,520 [INFO] Contact: Node 0 <-> 5 at t=35.00s
+2025-11-23 15:21:43,529 [INFO] Contact: Node 4 <-> 5 at t=35.00s
+2025-11-23 15:21:43,533 [INFO] Contact: Node 1 <-> 5 at t=45.00s
+2025-11-23 15:21:43,536 [INFO] Contact: Node 4 <-> 5 at t=50.00s
+2025-11-23 15:21:43,541 [INFO] Contact: Node 3 <-> 4 at t=50.00s
+2025-11-23 15:21:43,546 [INFO] Generating 21 bundles...
+2025-11-23 15:21:43,558 [INFO] Contact: Node 1 <-> 2 at t=55.00s
+2025-11-23 15:21:43,568 [INFO] Contact: Node 4 <-> 7 at t=75.00s
+2025-11-23 15:21:43,571 [INFO] Contact: Node 0 <-> 2 at t=85.00s
+2025-11-23 15:21:43,576 [INFO] Contact: Node 3 <-> 7 at t=85.00s
+2025-11-23 15:21:43,579 [INFO] Contact: Node 1 <-> 5 at t=85.00s
+2025-11-23 15:21:43,585 [INFO] Contact: Node 0 <-> 2 at t=90.00s
+2025-11-23 15:21:43,589 [INFO] Generating 22 bundles...
+2025-11-23 15:21:43,594 [INFO] Contact: Node 2 <-> 4 at t=120.00s
+2025-11-23 15:21:43,597 [INFO] Contact: Node 0 <-> 5 at t=120.00s
+2025-11-23 15:21:43,607 [INFO] Contact: Node 4 <-> 5 at t=125.00s
+2025-11-23 15:21:43,609 [INFO] Contact: Node 2 <-> 5 at t=125.00s
+2025-11-23 15:21:43,615 [INFO] Contact: Node 1 <-> 4 at t=135.00s
+2025-11-23 15:21:43,619 [INFO] Contact: Node 0 <-> 5 at t=135.00s
+2025-11-23 15:21:43,626 [INFO] Contact: Node 3 <-> 6 at t=135.00s
+2025-11-23 15:21:43,630 [INFO] Generating 30 bundles...
+2025-11-23 15:21:43,638 [INFO] Contact: Node 2 <-> 4 at t=155.00s
+2025-11-23 15:21:43,644 [INFO] Contact: Node 4 <-> 5 at t=155.00s
+2025-11-23 15:21:43,654 [INFO] Contact: Node 0 <-> 6 at t=160.00s
+2025-11-23 15:21:43,658 [INFO] Contact: Node 3 <-> 6 at t=160.00s
+2025-11-23 15:21:43,664 [INFO] Contact: Node 2 <-> 5 at t=170.00s
+2025-11-23 15:21:43,670 [INFO] Contact: Node 3 <-> 6 at t=170.00s
+2025-11-23 15:21:43,676 [INFO] Contact: Node 3 <-> 7 at t=180.00s
+2025-11-23 15:21:43,689 [INFO] Contact: Node 4 <-> 7 at t=180.00s
+2025-11-23 15:21:43,697 [INFO] Contact: Node 3 <-> 7 at t=185.00s
+2025-11-23 15:21:43,704 [INFO] Contact: Node 1 <-> 5 at t=185.00s
+2025-11-23 15:21:43,707 [INFO] Contact: Node 0 <-> 2 at t=195.00s
+2025-11-23 15:21:43,714 [INFO] Contact: Node 6 <-> 7 at t=195.00s
+2025-11-23 15:21:43,720 [INFO] Contact: Node 3 <-> 6 at t=195.00s
+2025-11-23 15:21:43,722 [INFO] Generating 22 bundles...
+2025-11-23 15:21:43,729 [INFO] Contact: Node 6 <-> 7 at t=205.00s
+2025-11-23 15:21:43,737 [INFO] Contact: Node 3 <-> 7 at t=210.00s
+2025-11-23 15:21:43,742 [INFO] Contact: Node 1 <-> 2 at t=210.00s
+2025-11-23 15:21:43,754 [INFO] Contact: Node 1 <-> 4 at t=220.00s
+2025-11-23 15:21:43,758 [INFO] Contact: Node 0 <-> 6 at t=225.00s
+2025-11-23 15:21:43,808 [INFO] Contact: Node 3 <-> 4 at t=230.00s
+2025-11-23 15:21:43,909 [INFO] Contact: Node 0 <-> 6 at t=235.00s
+2025-11-23 15:21:44,012 [INFO] Contact: Node 1 <-> 3 at t=240.00s
+2025-11-23 15:21:44,061 [INFO] Contact: Node 0 <-> 7 at t=240.00s
+2025-11-23 15:21:44,069 [INFO] Contact: Node 0 <-> 2 at t=250.00s
+2025-11-23 15:21:44,072 [INFO] Generating 29 bundles...
+2025-11-23 15:21:44,110 [INFO] Contact: Node 2 <-> 5 at t=255.00s
+2025-11-23 15:21:44,129 [INFO] Contact: Node 1 <-> 5 at t=260.00s
+2025-11-23 15:21:44,141 [INFO] Contact: Node 1 <-> 2 at t=265.00s
+2025-11-23 15:21:44,144 [INFO] Contact: Node 1 <-> 3 at t=270.00s
+2025-11-23 15:21:44,150 [INFO] Contact: Node 6 <-> 7 at t=270.00s
+2025-11-23 15:21:44,160 [INFO] Contact: Node 3 <-> 4 at t=285.00s
+2025-11-23 15:21:44,167 [INFO] Contact: Node 0 <-> 5 at t=285.00s
+2025-11-23 15:21:44,175 [INFO] Generating 30 bundles...
+2025-11-23 15:21:44,190 [INFO] Contact: Node 2 <-> 4 at t=305.00s
+2025-11-23 15:21:44,196 [INFO] Contact: Node 1 <-> 2 at t=305.00s
+2025-11-23 15:21:44,202 [INFO] Contact: Node 0 <-> 5 at t=305.00s
+2025-11-23 15:21:44,209 [INFO] Contact: Node 6 <-> 7 at t=310.00s
+2025-11-23 15:21:44,211 [INFO] Contact: Node 4 <-> 7 at t=315.00s
+2025-11-23 15:21:44,219 [INFO] Contact: Node 1 <-> 4 at t=325.00s
+2025-11-23 15:21:44,226 [INFO] Contact: Node 4 <-> 7 at t=330.00s
+2025-11-23 15:21:44,239 [INFO] Contact: Node 4 <-> 5 at t=330.00s
+2025-11-23 15:21:44,242 [INFO] Contact: Node 0 <-> 7 at t=335.00s
+2025-11-23 15:21:44,244 [INFO] Contact: Node 3 <-> 6 at t=340.00s
+2025-11-23 15:21:44,248 [INFO] Contact: Node 1 <-> 4 at t=345.00s
+2025-11-23 15:21:44,256 [INFO] Contact: Node 0 <-> 6 at t=345.00s
+2025-11-23 15:21:44,307 [INFO] Contact: Node 1 <-> 2 at t=350.00s
+2025-11-23 15:21:44,356 [INFO] Generating 20 bundles...
+2025-11-23 15:21:44,411 [INFO] Generating 24 bundles...
+2025-11-23 15:21:44,445 [INFO] Generating 22 bundles...
+2025-11-23 15:21:44,474 [INFO] Simulation complete
+2025-11-23 15:21:44,500 [INFO] 
+================================================================================
+2025-11-23 15:21:44,527 [INFO] FINAL SIMULATION RESULTS
+2025-11-23 15:21:44,562 [INFO] ================================================================================
+2025-11-23 15:21:44,589 [INFO] Total Bundles Delivered: 223
+2025-11-23 15:21:44,623 [INFO] Total Bundles Transmitted: 1852
+2025-11-23 15:21:44,641 [INFO] Total Bundles Dropped: 30
+2025-11-23 15:21:44,658 [INFO] Average Latency: 140.52s
+2025-11-23 15:21:44,664 [INFO] Delivery Ratio: 12.04%
+2025-11-23 15:21:44,680 [INFO] Avg Buffer Utilization: 26.50 bundles/node
+2025-11-23 15:21:44,723 [INFO] Report generated: results/dtn_ui_results.json
+2025-11-23 15:44:48,120 [INFO] ================================================================================
+2025-11-23 15:44:48,128 [INFO] DTN-LTP Simulator initialized
+2025-11-23 15:44:48,134 [INFO] Config: {
+  "num_nodes": 6,
+  "network_radius": 5000.0,
+  "max_buffer_size": 50,
+  "bundle_timeout": 300.0,
+  "min_contact_duration": 10.0,
+  "ltp_segment_size": 1024,
+  "ltp_max_retransmissions": 5,
+  "ltp_rto_initial": 5.0,
+  "channel_capacity": 100.0,
+  "base_error_rate": 0.01,
+  "qos_priority_levels": 4,
+  "max_hop_count": 10,
+  "simulation_time": 500,
+  "mobility_update_interval": 5.0,
+  "random_seed": 42
+}
+2025-11-23 15:44:48,283 [INFO] Creating 6 DTN nodes...
+2025-11-23 15:44:48,286 [INFO] Generating contact schedule...
+2025-11-23 15:44:48,296 [INFO] Starting simulation...
+2025-11-23 15:44:48,299 [INFO] Generating 23 bundles...
+2025-11-23 15:44:48,305 [INFO] Generating 28 bundles...
+2025-11-23 15:44:48,340 [INFO] Contact: Node 1 <-> 3 at t=15.00s
+2025-11-23 15:44:48,345 [INFO] Contact: Node 4 <-> 5 at t=25.00s
+2025-11-23 15:44:48,352 [INFO] Contact: Node 0 <-> 5 at t=35.00s
+2025-11-23 15:44:48,359 [INFO] Contact: Node 2 <-> 4 at t=45.00s
+2025-11-23 15:44:48,369 [INFO] Generating 26 bundles...
+2025-11-23 15:44:48,400 [INFO] Contact: Node 1 <-> 4 at t=55.00s
+2025-11-23 15:44:48,408 [INFO] Contact: Node 0 <-> 2 at t=85.00s
+2025-11-23 15:44:48,433 [INFO] Contact: Node 2 <-> 4 at t=85.00s
+2025-11-23 15:44:48,446 [INFO] Contact: Node 0 <-> 2 at t=90.00s
+2025-11-23 15:44:48,450 [INFO] Generating 27 bundles...
+2025-11-23 15:44:48,466 [INFO] Contact: Node 4 <-> 5 at t=120.00s
+2025-11-23 15:44:48,469 [INFO] Contact: Node 0 <-> 5 at t=120.00s
+2025-11-23 15:44:48,475 [INFO] Contact: Node 2 <-> 3 at t=135.00s
+2025-11-23 15:44:48,481 [INFO] Contact: Node 0 <-> 5 at t=135.00s
+2025-11-23 15:44:48,483 [INFO] Generating 29 bundles...
+2025-11-23 15:44:48,491 [INFO] Contact: Node 4 <-> 5 at t=155.00s
+2025-11-23 15:44:48,501 [INFO] Contact: Node 1 <-> 2 at t=160.00s
+2025-11-23 15:44:48,518 [INFO] Contact: Node 2 <-> 4 at t=185.00s
+2025-11-23 15:44:48,523 [INFO] Contact: Node 0 <-> 2 at t=195.00s
+2025-11-23 15:44:48,527 [INFO] Generating 21 bundles...
+2025-11-23 15:44:48,534 [INFO] Contact: Node 1 <-> 4 at t=210.00s
+2025-11-23 15:44:48,538 [INFO] Contact: Node 2 <-> 3 at t=220.00s
+2025-11-23 15:44:48,548 [INFO] Contact: Node 1 <-> 2 at t=225.00s
+2025-11-23 15:44:48,551 [INFO] Contact: Node 1 <-> 2 at t=235.00s
+2025-11-23 15:44:48,559 [INFO] Contact: Node 1 <-> 5 at t=240.00s
+2025-11-23 15:44:48,567 [INFO] Contact: Node 1 <-> 3 at t=240.00s
+2025-11-23 15:44:48,571 [INFO] Contact: Node 0 <-> 2 at t=250.00s
+2025-11-23 15:44:48,582 [INFO] Generating 29 bundles...
+2025-11-23 15:44:48,598 [INFO] Contact: Node 2 <-> 4 at t=260.00s
+2025-11-23 15:44:48,609 [INFO] Contact: Node 1 <-> 4 at t=265.00s
+2025-11-23 15:44:48,618 [INFO] Contact: Node 1 <-> 5 at t=270.00s
+2025-11-23 15:44:48,642 [INFO] Contact: Node 0 <-> 5 at t=285.00s
+2025-11-23 15:44:48,645 [INFO] Generating 26 bundles...
+2025-11-23 15:44:48,657 [INFO] Contact: Node 4 <-> 5 at t=305.00s
+2025-11-23 15:44:48,668 [INFO] Contact: Node 1 <-> 4 at t=305.00s
+2025-11-23 15:44:48,680 [INFO] Contact: Node 0 <-> 5 at t=305.00s
+2025-11-23 15:44:48,702 [INFO] Contact: Node 2 <-> 3 at t=325.00s
+2025-11-23 15:44:48,708 [INFO] Contact: Node 1 <-> 3 at t=335.00s
+2025-11-23 15:44:48,717 [INFO] Contact: Node 2 <-> 3 at t=345.00s
+2025-11-23 15:44:48,735 [INFO] Contact: Node 1 <-> 2 at t=345.00s
+2025-11-23 15:44:48,739 [INFO] Contact: Node 1 <-> 4 at t=350.00s
+2025-11-23 15:44:48,742 [INFO] Generating 30 bundles...
+2025-11-23 15:44:48,748 [INFO] Generating 29 bundles...
+2025-11-23 15:44:48,752 [INFO] Generating 21 bundles...
+2025-11-23 15:44:48,766 [INFO] Simulation complete
+2025-11-23 15:44:48,776 [INFO] 
+================================================================================
+2025-11-23 15:44:48,781 [INFO] FINAL SIMULATION RESULTS
+2025-11-23 15:44:48,783 [INFO] ================================================================================
+2025-11-23 15:44:48,797 [INFO] Total Bundles Delivered: 224
+2025-11-23 15:44:48,799 [INFO] Total Bundles Transmitted: 1475
+2025-11-23 15:44:48,802 [INFO] Total Bundles Dropped: 25
+2025-11-23 15:44:48,807 [INFO] Average Latency: 141.43s
+2025-11-23 15:44:48,809 [INFO] Delivery Ratio: 15.19%
+2025-11-23 15:44:48,810 [INFO] Avg Buffer Utilization: 39.50 bundles/node
+2025-11-23 15:44:48,828 [INFO] Report generated: results/dtn_ui_results.json
+2025-11-23 15:59:03,717 [INFO] ================================================================================
+2025-11-23 15:59:03,720 [INFO] DTN-LTP Simulator initialized
+2025-11-23 15:59:03,721 [INFO] Config: {
+  "num_nodes": 6,
+  "network_radius": 5000.0,
+  "max_buffer_size": 50,
+  "bundle_timeout": 300.0,
+  "min_contact_duration": 10.0,
+  "ltp_segment_size": 1024,
+  "ltp_max_retransmissions": 5,
+  "ltp_rto_initial": 5.0,
+  "channel_capacity": 100.0,
+  "base_error_rate": 0.01,
+  "qos_priority_levels": 4,
+  "max_hop_count": 10,
+  "simulation_time": 500,
+  "mobility_update_interval": 5.0,
+  "random_seed": 45
+}
+2025-11-23 15:59:03,726 [INFO] Creating 6 DTN nodes...
+2025-11-23 15:59:03,726 [INFO] Generating contact schedule...
+2025-11-23 15:59:03,728 [INFO] Starting simulation...
+2025-11-23 15:59:03,730 [INFO] Generating 26 bundles...
+2025-11-23 15:59:03,731 [INFO] Generating 22 bundles...
+2025-11-23 15:59:03,831 [INFO] Contact: Node 3 <-> 4 at t=25.00s
+2025-11-23 15:59:03,840 [INFO] Contact: Node 1 <-> 5 at t=30.00s
+2025-11-23 15:59:03,848 [INFO] Contact: Node 0 <-> 2 at t=35.00s
+2025-11-23 15:59:03,862 [INFO] Contact: Node 1 <-> 3 at t=35.00s
+2025-11-23 15:59:03,863 [INFO] Contact: Node 0 <-> 1 at t=45.00s
+2025-11-23 15:59:03,864 [INFO] Generating 25 bundles...
+2025-11-23 15:59:03,865 [INFO] Contact: Node 1 <-> 3 at t=55.00s
+2025-11-23 15:59:03,866 [INFO] Contact: Node 1 <-> 5 at t=85.00s
+2025-11-23 15:59:03,866 [INFO] Contact: Node 0 <-> 2 at t=90.00s
+2025-11-23 15:59:03,867 [INFO] Contact: Node 0 <-> 1 at t=95.00s
+2025-11-23 15:59:03,868 [INFO] Contact: Node 1 <-> 2 at t=95.00s
+2025-11-23 15:59:03,868 [INFO] Contact: Node 3 <-> 4 at t=100.00s
+2025-11-23 15:59:03,869 [INFO] Generating 21 bundles...
+2025-11-23 15:59:03,870 [INFO] Contact: Node 1 <-> 2 at t=115.00s
+2025-11-23 15:59:03,871 [INFO] Contact: Node 0 <-> 3 at t=135.00s
+2025-11-23 15:59:03,872 [INFO] Contact: Node 1 <-> 2 at t=145.00s
+2025-11-23 15:59:03,873 [INFO] Contact: Node 0 <-> 1 at t=150.00s
+2025-11-23 15:59:03,873 [INFO] Generating 27 bundles...
+2025-11-23 15:59:03,875 [INFO] Contact: Node 0 <-> 3 at t=175.00s
+2025-11-23 15:59:03,882 [INFO] Generating 28 bundles...
+2025-11-23 15:59:03,888 [INFO] Contact: Node 0 <-> 1 at t=230.00s
+2025-11-23 15:59:03,892 [INFO] Contact: Node 1 <-> 4 at t=230.00s
+2025-11-23 15:59:03,893 [INFO] Contact: Node 1 <-> 4 at t=235.00s
+2025-11-23 15:59:03,895 [INFO] Contact: Node 2 <-> 4 at t=240.00s
+2025-11-23 15:59:03,896 [INFO] Contact: Node 3 <-> 4 at t=245.00s
+2025-11-23 15:59:03,897 [INFO] Contact: Node 1 <-> 2 at t=250.00s
+2025-11-23 15:59:03,899 [INFO] Generating 26 bundles...
+2025-11-23 15:59:03,904 [INFO] Contact: Node 0 <-> 2 at t=260.00s
+2025-11-23 15:59:03,905 [INFO] Contact: Node 0 <-> 3 at t=295.00s
+2025-11-23 15:59:03,905 [INFO] Generating 27 bundles...
+2025-11-23 15:59:03,907 [INFO] Contact: Node 0 <-> 2 at t=310.00s
+2025-11-23 15:59:03,908 [INFO] Contact: Node 0 <-> 1 at t=315.00s
+2025-11-23 15:59:03,910 [INFO] Contact: Node 0 <-> 3 at t=320.00s
+2025-11-23 15:59:03,912 [INFO] Contact: Node 2 <-> 4 at t=325.00s
+2025-11-23 15:59:03,914 [INFO] Contact: Node 1 <-> 4 at t=345.00s
+2025-11-23 15:59:03,915 [INFO] Generating 23 bundles...
+2025-11-23 15:59:03,916 [INFO] Generating 23 bundles...
+2025-11-23 15:59:03,917 [INFO] Generating 20 bundles...
+2025-11-23 15:59:03,918 [INFO] Simulation complete
+2025-11-23 15:59:03,919 [INFO] 
+================================================================================
+2025-11-23 15:59:03,919 [INFO] FINAL SIMULATION RESULTS
+2025-11-23 15:59:03,920 [INFO] ================================================================================
+2025-11-23 15:59:03,920 [INFO] Total Bundles Delivered: 179
+2025-11-23 15:59:03,921 [INFO] Total Bundles Transmitted: 1060
+2025-11-23 15:59:03,921 [INFO] Total Bundles Dropped: 25
+2025-11-23 15:59:03,922 [INFO] Average Latency: 133.74s
+2025-11-23 15:59:03,922 [INFO] Delivery Ratio: 16.89%
+2025-11-23 15:59:03,922 [INFO] Avg Buffer Utilization: 34.50 bundles/node
+2025-11-23 15:59:03,930 [INFO] Report generated: results/dtn_ui_results.json
+2025-11-23 15:59:07,538 [INFO] ================================================================================
+2025-11-23 15:59:07,540 [INFO] DTN-LTP Simulator initialized
+2025-11-23 15:59:07,540 [INFO] Config: {
+  "num_nodes": 6,
+  "network_radius": 5000.0,
+  "max_buffer_size": 50,
+  "bundle_timeout": 300.0,
+  "min_contact_duration": 10.0,
+  "ltp_segment_size": 1024,
+  "ltp_max_retransmissions": 5,
+  "ltp_rto_initial": 5.0,
+  "channel_capacity": 100.0,
+  "base_error_rate": 0.01,
+  "qos_priority_levels": 4,
+  "max_hop_count": 10,
+  "simulation_time": 414,
+  "mobility_update_interval": 5.0,
+  "random_seed": 45
+}
+2025-11-23 15:59:07,548 [INFO] Creating 6 DTN nodes...
+2025-11-23 15:59:07,549 [INFO] Generating contact schedule...
+2025-11-23 15:59:07,554 [INFO] Starting simulation...
+2025-11-23 15:59:07,557 [INFO] Generating 26 bundles...
+2025-11-23 15:59:07,558 [INFO] Generating 22 bundles...
+2025-11-23 15:59:07,560 [INFO] Contact: Node 3 <-> 4 at t=20.00s
+2025-11-23 15:59:07,561 [INFO] Contact: Node 1 <-> 5 at t=25.00s
+2025-11-23 15:59:07,562 [INFO] Contact: Node 0 <-> 2 at t=30.00s
+2025-11-23 15:59:07,568 [INFO] Contact: Node 1 <-> 3 at t=30.00s
+2025-11-23 15:59:07,569 [INFO] Contact: Node 0 <-> 1 at t=35.00s
+2025-11-23 15:59:07,571 [INFO] Contact: Node 1 <-> 3 at t=45.00s
+2025-11-23 15:59:07,574 [INFO] Generating 30 bundles...
+2025-11-23 15:59:07,577 [INFO] Contact: Node 1 <-> 5 at t=70.00s
+2025-11-23 15:59:07,579 [INFO] Contact: Node 0 <-> 2 at t=75.00s
+2025-11-23 15:59:07,580 [INFO] Contact: Node 0 <-> 1 at t=75.00s
+2025-11-23 15:59:07,583 [INFO] Contact: Node 1 <-> 2 at t=80.00s
+2025-11-23 15:59:07,585 [INFO] Contact: Node 3 <-> 4 at t=85.00s
+2025-11-23 15:59:07,587 [INFO] Contact: Node 1 <-> 2 at t=95.00s
+2025-11-23 15:59:07,589 [INFO] Generating 30 bundles...
+2025-11-23 15:59:07,591 [INFO] Contact: Node 0 <-> 3 at t=115.00s
+2025-11-23 15:59:07,598 [INFO] Contact: Node 1 <-> 2 at t=120.00s
+2025-11-23 15:59:07,605 [INFO] Contact: Node 0 <-> 1 at t=125.00s
+2025-11-23 15:59:07,607 [INFO] Contact: Node 0 <-> 3 at t=145.00s
+2025-11-23 15:59:07,608 [INFO] Generating 23 bundles...
+2025-11-23 15:59:07,610 [INFO] Contact: Node 0 <-> 1 at t=190.00s
+2025-11-23 15:59:07,614 [INFO] Contact: Node 1 <-> 4 at t=190.00s
+2025-11-23 15:59:07,616 [INFO] Contact: Node 1 <-> 4 at t=195.00s
+2025-11-23 15:59:07,617 [INFO] Contact: Node 2 <-> 4 at t=200.00s
+2025-11-23 15:59:07,618 [INFO] Generating 26 bundles...
+2025-11-23 15:59:07,620 [INFO] Contact: Node 3 <-> 4 at t=205.00s
+2025-11-23 15:59:07,621 [INFO] Contact: Node 1 <-> 2 at t=210.00s
+2025-11-23 15:59:07,623 [INFO] Contact: Node 0 <-> 2 at t=215.00s
+2025-11-23 15:59:07,625 [INFO] Contact: Node 0 <-> 3 at t=245.00s
+2025-11-23 15:59:07,625 [INFO] Generating 24 bundles...
+2025-11-23 15:59:07,630 [INFO] Contact: Node 0 <-> 2 at t=255.00s
+2025-11-23 15:59:07,636 [INFO] Contact: Node 0 <-> 1 at t=260.00s
+2025-11-23 15:59:07,638 [INFO] Contact: Node 0 <-> 3 at t=265.00s
+2025-11-23 15:59:07,639 [INFO] Contact: Node 2 <-> 4 at t=270.00s
+2025-11-23 15:59:07,641 [INFO] Contact: Node 1 <-> 4 at t=285.00s
+2025-11-23 15:59:07,645 [INFO] Generating 29 bundles...
+2025-11-23 15:59:07,647 [INFO] Generating 29 bundles...
+2025-11-23 15:59:07,649 [INFO] Generating 22 bundles...
+2025-11-23 15:59:07,650 [INFO] Simulation complete
+2025-11-23 15:59:07,651 [INFO] 
+================================================================================
+2025-11-23 15:59:07,652 [INFO] FINAL SIMULATION RESULTS
+2025-11-23 15:59:07,652 [INFO] ================================================================================
+2025-11-23 15:59:07,652 [INFO] Total Bundles Delivered: 197
+2025-11-23 15:59:07,653 [INFO] Total Bundles Transmitted: 1072
+2025-11-23 15:59:07,653 [INFO] Total Bundles Dropped: 15
+2025-11-23 15:59:07,654 [INFO] Average Latency: 106.80s
+2025-11-23 15:59:07,655 [INFO] Delivery Ratio: 18.38%
+2025-11-23 15:59:07,656 [INFO] Avg Buffer Utilization: 35.83 bundles/node
+2025-11-23 15:59:07,663 [INFO] Report generated: results/dtn_ui_results.json
+2025-11-24 09:27:41,775 [INFO] ================================================================================
+2025-11-24 09:27:41,797 [INFO] DTN-LTP Simulator initialized
+2025-11-24 09:27:41,803 [INFO] Config: {
+  "num_nodes": 8,
+  "network_radius": 5000.0,
+  "max_buffer_size": 50,
+  "bundle_timeout": 300.0,
+  "min_contact_duration": 10.0,
+  "ltp_segment_size": 1024,
+  "ltp_max_retransmissions": 5,
+  "ltp_rto_initial": 5.0,
+  "channel_capacity": 100.0,
+  "base_error_rate": 0.01,
+  "qos_priority_levels": 4,
+  "max_hop_count": 10,
+  "simulation_time": 500,
+  "mobility_update_interval": 5.0,
+  "random_seed": 45
+}
+2025-11-24 09:27:41,815 [INFO] Creating 8 DTN nodes...
+2025-11-24 09:27:41,817 [INFO] Generating contact schedule...
+2025-11-24 09:27:41,823 [INFO] Starting simulation...
+2025-11-24 09:27:41,828 [INFO] Generating 24 bundles...
+2025-11-24 09:27:41,845 [INFO] Generating 23 bundles...
+2025-11-24 09:27:41,861 [INFO] Contact: Node 1 <-> 7 at t=25.00s
+2025-11-24 09:27:41,865 [INFO] Contact: Node 1 <-> 3 at t=30.00s
+2025-11-24 09:27:41,866 [INFO] Contact: Node 3 <-> 6 at t=30.00s
+2025-11-24 09:27:41,868 [INFO] Contact: Node 2 <-> 6 at t=30.00s
+2025-11-24 09:27:41,869 [INFO] Contact: Node 0 <-> 2 at t=35.00s
+2025-11-24 09:27:41,872 [INFO] Contact: Node 0 <-> 7 at t=35.00s
+2025-11-24 09:27:41,874 [INFO] Contact: Node 0 <-> 1 at t=45.00s
+2025-11-24 09:27:41,875 [INFO] Generating 22 bundles...
+2025-11-24 09:27:41,877 [INFO] Contact: Node 0 <-> 7 at t=55.00s
+2025-11-24 09:27:41,878 [INFO] Contact: Node 4 <-> 5 at t=55.00s
+2025-11-24 09:27:41,879 [INFO] Contact: Node 1 <-> 3 at t=85.00s
+2025-11-24 09:27:41,881 [INFO] Contact: Node 0 <-> 2 at t=90.00s
+2025-11-24 09:27:41,883 [INFO] Contact: Node 4 <-> 5 at t=90.00s
+2025-11-24 09:27:41,885 [INFO] Contact: Node 0 <-> 1 at t=95.00s
+2025-11-24 09:27:41,886 [INFO] Contact: Node 0 <-> 6 at t=95.00s
+2025-11-24 09:27:41,889 [INFO] Contact: Node 1 <-> 7 at t=100.00s
+2025-11-24 09:27:41,891 [INFO] Contact: Node 5 <-> 7 at t=100.00s
+2025-11-24 09:27:41,892 [INFO] Generating 26 bundles...
+2025-11-24 09:27:41,895 [INFO] Contact: Node 4 <-> 6 at t=110.00s
+2025-11-24 09:27:41,899 [INFO] Contact: Node 0 <-> 6 at t=115.00s
+2025-11-24 09:27:41,905 [INFO] Contact: Node 2 <-> 6 at t=115.00s
+2025-11-24 09:27:41,908 [INFO] Contact: Node 5 <-> 7 at t=130.00s
+2025-11-24 09:27:41,910 [INFO] Contact: Node 3 <-> 5 at t=135.00s
+2025-11-24 09:27:41,912 [INFO] Contact: Node 0 <-> 3 at t=135.00s
+2025-11-24 09:27:41,913 [INFO] Contact: Node 2 <-> 5 at t=135.00s
+2025-11-24 09:27:41,914 [INFO] Contact: Node 0 <-> 6 at t=145.00s
+2025-11-24 09:27:41,918 [INFO] Contact: Node 4 <-> 5 at t=145.00s
+2025-11-24 09:27:41,919 [INFO] Contact: Node 0 <-> 1 at t=150.00s
+2025-11-24 09:27:41,921 [INFO] Generating 23 bundles...
+2025-11-24 09:27:41,924 [INFO] Contact: Node 3 <-> 5 at t=155.00s
+2025-11-24 09:27:41,926 [INFO] Contact: Node 5 <-> 7 at t=160.00s
+2025-11-24 09:27:41,928 [INFO] Contact: Node 0 <-> 3 at t=175.00s
+2025-11-24 09:27:41,932 [INFO] Contact: Node 4 <-> 6 at t=185.00s
+2025-11-24 09:27:41,934 [INFO] Contact: Node 4 <-> 6 at t=185.00s
+2025-11-24 09:27:41,937 [INFO] Contact: Node 3 <-> 6 at t=190.00s
+2025-11-24 09:27:41,939 [INFO] Contact: Node 2 <-> 6 at t=190.00s
+2025-11-24 09:27:41,940 [INFO] Generating 20 bundles...
+2025-11-24 09:27:41,943 [INFO] Contact: Node 4 <-> 6 at t=205.00s
+2025-11-24 09:27:41,944 [INFO] Contact: Node 2 <-> 6 at t=230.00s
+2025-11-24 09:27:41,946 [INFO] Contact: Node 0 <-> 1 at t=230.00s
+2025-11-24 09:27:41,947 [INFO] Contact: Node 1 <-> 2 at t=230.00s
+2025-11-24 09:27:41,958 [INFO] Contact: Node 1 <-> 2 at t=235.00s
+2025-11-24 09:27:41,959 [INFO] Contact: Node 1 <-> 5 at t=240.00s
+2025-11-24 09:27:41,960 [INFO] Contact: Node 1 <-> 7 at t=245.00s
+2025-11-24 09:27:41,962 [INFO] Contact: Node 2 <-> 5 at t=245.00s
+2025-11-24 09:27:41,963 [INFO] Contact: Node 0 <-> 6 at t=250.00s
+2025-11-24 09:27:41,965 [INFO] Generating 22 bundles...
+2025-11-24 09:27:41,968 [INFO] Contact: Node 4 <-> 6 at t=255.00s
+2025-11-24 09:27:41,971 [INFO] Contact: Node 0 <-> 2 at t=260.00s
+2025-11-24 09:27:41,974 [INFO] Contact: Node 3 <-> 6 at t=260.00s
+2025-11-24 09:27:41,976 [INFO] Contact: Node 2 <-> 6 at t=265.00s
+2025-11-24 09:27:41,978 [INFO] Contact: Node 0 <-> 3 at t=295.00s
+2025-11-24 09:27:41,981 [INFO] Contact: Node 3 <-> 5 at t=300.00s
+2025-11-24 09:27:41,981 [INFO] Generating 21 bundles...
+2025-11-24 09:27:41,984 [INFO] Contact: Node 3 <-> 5 at t=305.00s
+2025-11-24 09:27:41,986 [INFO] Contact: Node 0 <-> 2 at t=310.00s
+2025-11-24 09:27:41,988 [INFO] Contact: Node 0 <-> 1 at t=315.00s
+2025-11-24 09:27:41,989 [INFO] Contact: Node 0 <-> 3 at t=320.00s
+2025-11-24 09:27:41,991 [INFO] Contact: Node 1 <-> 5 at t=325.00s
+2025-11-24 09:27:41,992 [INFO] Contact: Node 1 <-> 2 at t=345.00s
+2025-11-24 09:27:41,993 [INFO] Contact: Node 5 <-> 7 at t=350.00s
+2025-11-24 09:27:41,994 [INFO] Generating 30 bundles...
+2025-11-24 09:27:41,997 [INFO] Generating 20 bundles...
+2025-11-24 09:27:41,998 [INFO] Generating 28 bundles...
+2025-11-24 09:27:42,000 [INFO] Simulation complete
+2025-11-24 09:27:42,001 [INFO] 
+================================================================================
+2025-11-24 09:27:42,002 [INFO] FINAL SIMULATION RESULTS
+2025-11-24 09:27:42,004 [INFO] ================================================================================
+2025-11-24 09:27:42,004 [INFO] Total Bundles Delivered: 196
+2025-11-24 09:27:42,005 [INFO] Total Bundles Transmitted: 1383
+2025-11-24 09:27:42,006 [INFO] Total Bundles Dropped: 22
+2025-11-24 09:27:42,007 [INFO] Average Latency: 123.09s
+2025-11-24 09:27:42,007 [INFO] Delivery Ratio: 14.17%
+2025-11-24 09:27:42,008 [INFO] Avg Buffer Utilization: 26.88 bundles/node
+2025-11-24 09:27:42,024 [INFO] Report generated: results/dtn_ui_results.json
